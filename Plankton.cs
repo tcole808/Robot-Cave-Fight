@@ -94,10 +94,7 @@ namespace RobotCaveFightTestArena
         string IRobot.GetStats()
         {
             return ($"Current health: {health} \nAttack: {attack} \nDefense: {defense} \nSpeed: {speed}");
-            
         }
-
-        
 
         public void TakeDamage(double damage)
         {
