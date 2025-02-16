@@ -141,8 +141,6 @@ namespace RobotCaveFightTestArena
 
         }
 
-
-
         public void TakeDamage(double damage)
         {
             double damageDealt = damage - (defense / 100 * damage);
