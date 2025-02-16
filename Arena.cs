@@ -54,10 +54,8 @@ namespace RobotCaveFightTestArena {
 				}
 
 				// display stats
-				Console.WriteLine();
-				Console.WriteLine($"{Contestant1.GetRobotName()}: HP({Contestant1.GetHealth()}) {Contestant1.GetStats()}");
-				Console.WriteLine($"{Contestant2.GetRobotName()}: HP({Contestant2.GetHealth()}) {Contestant2.GetStats()}");
-				Console.WriteLine();
+				Console.WriteLine($"\n{Contestant1.GetRobotName()}: HP({Contestant1.GetHealth()}) {Contestant1.GetStats()}");
+				Console.WriteLine($"{Contestant2.GetRobotName()}: HP({Contestant2.GetHealth()}) {Contestant2.GetStats()}\n");
 				Thread.Sleep(350);
 
 				roundCount++;				
